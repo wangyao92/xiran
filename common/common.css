@@ -13,7 +13,12 @@ body {
 .box-center {
     margin: 0 auto;
 }
-
+.fleft {
+    float: left;
+}
+.fright {
+    float: right;
+}
 
 /*顶部导航*/
 .header {

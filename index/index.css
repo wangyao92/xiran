@@ -1,2 +1,31 @@
+/*banner*/
+.banner img{
+    width: 100%;
+}
 
-
+/*第一板块*/
+.swap-1 {
+    padding: 104px 66px;
+}
+.swap-1 .left {
+    width: 45%;
+    max-width: 553px;
+}
+.swap-1 .left .img img{
+    width: 100%;
+}
+.swap-1 .left .info {
+    padding-left: 65px;
+    width: 100%;
+    margin-top: 62px;
+    box-sizing: border-box;
+}
+.swap-1 .left .info .title{
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.swap-1 .left .info .content{
+    color: #797979;
+    line-height: 26px;
+}
