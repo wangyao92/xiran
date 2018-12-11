@@ -1,31 +1,115 @@
 /*banner*/
 .banner img{
+    max-width: 1200px;
     width: 100%;
 }
 
 /*第一板块*/
-.swap-1 {
+.wrap-1 {
     padding: 104px 66px;
 }
-.swap-1 .left {
+.wrap-1 .left {
     width: 45%;
     max-width: 553px;
 }
-.swap-1 .left .img img{
+.wrap-1 .left .img img {
     width: 100%;
 }
-.swap-1 .left .info {
+.wrap-1 .left .info {
     padding-left: 65px;
     width: 100%;
     margin-top: 62px;
     box-sizing: border-box;
 }
-.swap-1 .left .info .title{
+.wrap-1 .left .info .title{
     color: #333;
     font-weight: bold;
     margin-bottom: 10px;
 }
-.swap-1 .left .info .content{
+.wrap-1 .left .info .content{
     color: #797979;
     line-height: 26px;
+}
+.wrap-1 .right {
+    width: 45%;
+    max-width: 553px;
+    margin-left: 97px;
+}
+.wrap-1 .right img{
+    width: 100%;
+}
+
+/*第二板块*/
+.wrap-2 {
+    width: 100%;
+    padding: 157px 0 250px;
+    box-sizing: border-box;
+    background: url("../images/wrap2-bg.jpg") no-repeat;
+    background-size:100% 100%;
+    -moz-background-size:100% 100%;
+}
+.wrap-2 .left {
+    width: 500px;
+    margin-left: 66px;
+}
+.wrap-2 .left img {
+    width: 100%;
+}
+.wrap-2 .right {
+    width: 500px;
+}
+.wrap-2 .right img {
+    width: 269px;
+    margin-bottom: 58px;
+}
+.wrap-2 .right .info .title{
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.wrap-2 .right .info .content{
+    color: #797979;
+    line-height: 26px;
+}
+
+/*第三板块*/
+.wrap-3 {
+    padding: 152px 0px;
+}
+.wrap-3 .left{
+    width: 500px;
+    margin-left: 66px;
+}
+.wrap-3 .left .img {
+    width: 269px;
+}
+.wrap-3 .left .info {
+    width: 100%;
+    margin-top: 62px;
+    box-sizing: border-box;
+}
+.wrap-3 .left .info .title{
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.wrap-3 .left .info .content{
+    color: #797979;
+    line-height: 26px;
+}
+.wrap-3 .right {
+    width: 500px;
+    margin-left: 55px;
+}
+
+.wrap-3 .right img{
+    width: 100%;
+}
+
+/*第四板块*/
+.wrap-4 {
+    width: 100%;
+    height: 468px;
+    background: url("../images/wrap4-bg.jpg") no-repeat;
+    background-size: 100% 100%;
 }
