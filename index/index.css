@@ -31,12 +31,23 @@
     line-height: 26px;
 }
 .wrap-1 .right {
+    position: relative;
     width: 45%;
     max-width: 553px;
     margin-left: 97px;
 }
 .wrap-1 .right img{
     width: 100%;
+}
+.wrap-1 .right .banner-text {
+    position: absolute;
+    bottom: 17px;
+    left: 225px;
+    width: 500px;
+    height: 100px;
+    background: url('../images/wrap1-text.jpg') no-repeat;
+    background-size: 500px 100px;
+    background-position: center;
 }
 
 /*第二板块*/
@@ -112,4 +123,12 @@
     height: 468px;
     background: url("../images/wrap4-bg.jpg") no-repeat;
     background-size: 100% 100%;
+}
+.wrap-4 .container {
+    padding-top: 106px;
+    width: 1200px;
+}
+.wrap-4 .container img {
+    width: 200px;
+    margin-right: 24px;
 }
