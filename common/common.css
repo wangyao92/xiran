@@ -64,57 +64,9 @@ body {
     background-color: #BB2C21;
 }
 
-/*底部*/
-.footer {
-    padding-top: 55px;
+.footer-records {
     background-color: #2B2B2B;
-}
-.footer .partner-title {
-    text-align: center;
-    color: #FFFEFE;
-    margin-left: 160px;
-}
-.footer .partner-title .text:after {
-    display: inline-block;
-    content: '';
-    width: 50px;
-    height: 1px;
-    background-color: #FFFEFE;
-    margin-left: 10px;
-    margin-bottom: 5px;
-}
-.footer .partner-title .text:before {
-    display: inline-block;
-    content: '';
-    width: 50px;
-    height: 1px;
-    background-color: #FFFEFE;
-    margin-right: 10px;
-    margin-bottom: 5px;
-}
-.footer .footer-wrap {
-    padding-bottom: 24px;
-    width: 100%;
-}
-.footer .footer-wrap .qrcode {
-    margin-top: 20px;
-}
-.footer .footer-wrap .qrcode img{
-    width: 150px;
-}
-.footer .partner {
-    width: 700px;
-    margin-top: 33px;
-    margin-left: 197px;
-}
-
-.footer .partner img{
-    width: 150px;
-    margin-right: 20px;
-    margin-bottom: 20px;
-}
-.footer .footer-records {
     color: #999;
     font-size: 12px;
-    padding-bottom: 10px;
+    padding: 10px 0;
 }
