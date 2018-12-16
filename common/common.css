@@ -1,4 +1,5 @@
 body {
+    position: relative;
     min-width: 1366px;
     min-height: 100vh;
 }
@@ -64,7 +65,74 @@ body {
     background-color: #BB2C21;
 }
 
+/*内页*/
+.inner-banner img{
+    width: 100%;
+}
+.inner-wrap {
+    margin-top: 45px;
+    padding-bottom: 40px;
+}
+/*内页垂直导航*/
+.inner-wrap .vertical-nav {
+
+}
+.inner-wrap .vertical-nav .menu{
+    font-size: 18px;
+    color: #000;
+    cursor: pointer;
+}
+.inner-wrap .vertical-nav .menu .menu-item {
+    position: relative;
+    width: 180px;
+    text-align: center;
+    line-height: 60px;
+}
+.inner-wrap .vertical-nav .menu .menu-item.active {
+    background-color: #BB2C21;
+    color: #fff;
+}
+.inner-wrap .vertical-nav .menu .menu-item .arrow {
+    position: absolute;
+    top: 0;
+    right: 13px;
+}
+.inner-wrap .vertical-nav .menu .menu-item .sub-menu {
+    background-color: #fff;
+    color: #000;
+    font-size: 14px;
+}
+.inner-wrap .vertical-nav .menu .menu-item .sub-menu.active {
+    color: #BB2C21;
+}
+/*内页正文*/
+.inner-wrap .content {
+    width: 900px;
+    margin-left: 90px;
+}
+.inner-wrap .content .text {
+    color: #696A69;
+    font-size: 18px;
+    line-height: 48px;
+    font-weight: bold;
+}
+.inner-wrap .content .text-img {
+    font-size: 18px;
+    color: #696A69;
+    line-height:48px;
+    font-weight: bold;
+}
+.inner-wrap .content .text-img img {
+    float: right;
+    margin-left: 30px;
+}
+
+/*底部*/
 .footer-records {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
     background-color: #2B2B2B;
     color: #999;
     font-size: 12px;
