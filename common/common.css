@@ -102,7 +102,7 @@ body {
     color: #000;
     font-size: 14px;
 }
-.inner-wrap .vertical-nav .menu .menu-item .sub-menu.active {
+.inner-wrap .vertical-nav .menu .menu-item .sub-menu .sub-menu-item.active {
     color: #BB2C21;
 }
 /*内页正文*/
