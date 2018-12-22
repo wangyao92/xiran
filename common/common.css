@@ -51,11 +51,11 @@ body {
 .header .nav .nav-item:hover {
     color: #BB2C21;
 }
-.header .nav .nav-item.native {
+.header .nav .nav-item.active {
     position: relative;
     color: #BB2C21;
 }
-.header .nav .nav-item.native:after {
+.header .nav .nav-item.active:after {
     position: absolute;
     bottom: 0px;
     left: 0px;

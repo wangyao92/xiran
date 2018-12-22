@@ -1,4 +1,4 @@
-[
+var aboutMenuList = [
   {
     "menuName":"公司简介",
     "type": 0, //0: 纯文本  1:左文右图  2:表单
@@ -15,7 +15,7 @@
     }
   },
   {
-    "menuName":"团队简介",
+    "menuName":"团队简介2",
     "subMenu": [
       {
         "subMenuName": "资产管理中心",

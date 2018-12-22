@@ -1,0 +1,19 @@
+<div class="vertical-nav fleft js_nav">
+    <div class="menu js_menu">
+        {{each data item i}}
+        <div class="menu-item js_menuItem" menuId="{{i}}">
+            <div> {{item.menuName}} <span class="arrow">&gt;</span></div>
+            {{if item.subMenu}}
+            <div class="sub-menu js_subMenu" style="display: none;">
+                {{each item.subMenu subMenuItem j}}
+                <div class="sub-menu-item js_subMenuItem" subMenuId="{{i}}-{{j}}"> {{subMenuItem.subMenuName}} </div>
+                {{/each}}
+            </div>
+            {{/if}}
+        </div>
+        {{/each}}
+    </div>
+</div>
+<div class="content js_content fleft">
+
+</div>
