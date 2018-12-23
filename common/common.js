@@ -30,13 +30,18 @@ function menuEventHandler (menuList) {
         htmlStr = '<div class="text">\n' +
           menuItem.content.text +
           '    </div>'
-      } else if (menuItem.type == 1) { // 左文右图
+	  } else if (menuItem.type == 1) { // 左文右图
         htmlStr = '<div class="text-img">\n' +
           '        <img src="'+ menuItem.content.img +'">\n' +
           menuItem.content.text +
           '    </div>'
-      }
-      $('.js_content').html(htmlStr)
+	  }
+	  $('.js_content').html(htmlStr)
+	  $('.js_form').css('display', 'none')
+	  if (menuItem.type == 2) { // 表单
+		$('.js_form').css('display', 'block')
+		submitEventHandler()
+	  }
     }else {
       $(this).find('.js_subMenu').toggle()
       $(this).find('.js_subMenuItem')[0].click()
@@ -63,4 +68,30 @@ function menuEventHandler (menuList) {
   })
 
   $('.js_menuItem')[0].click()
+}
+
+/**
+ * 提交事件监听 todo 增加接口和修改对应的参数
+ */
+function submitEventHandler() {
+  $("#submitBtn").on('click', function () {
+    var params = {
+	  name: $('#name').val(),
+	  phone: $('#phone').val(),
+	  email: $('#email').val(),
+	  mode: $('#mode').val()
+    }
+    $.ajax({
+      type: 'POST',
+	  url: "",
+	  data: params,
+	  dataType: "json",
+	  success: function () {
+
+	  },
+	  error: function () {
+
+	  }
+    })
+  })
 }
