@@ -1,6 +1,6 @@
 body {
     position: relative;
-    min-width: 1366px;
+    min-width: 1260px;
     min-height: 100vh;
 }
 .clearfix:after {
